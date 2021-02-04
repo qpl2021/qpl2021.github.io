@@ -457,6 +457,12 @@ footer {
     padding-bottom: 7rem;
 }
 
+#callfp .deadline {
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+}
+
 /*---------------------------------------
     Regsiter section              
 -----------------------------------------*/
