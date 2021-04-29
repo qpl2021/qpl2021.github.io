@@ -502,7 +502,17 @@ footer {
   color: #222;
 }
 
+/*---------------------------------------
+   Invited speakers section              
+-----------------------------------------*/
 
+section#invitedspeakers .talkName {
+  font-weight: bold;
+}
+
+section#invitedspeakers .abstract {
+  padding: 2em;
+}
 
 /*---------------------------------------
    Faq section              
