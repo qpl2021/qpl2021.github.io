@@ -591,9 +591,24 @@ footer {
    Sponsors section              
 -----------------------------------------*/
 #sponsors img {
-  margin-top: 18px;
+  padding: 0em 4em;
+  border: none;
+  width: 100%;
 }
 
+#sponsorsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sponsorTitle {
+  grid-row: 2;
+}
+
+.sponsorImage {
+  grid-row: 1;
+  align-self: center;
+}
 
 
 /*---------------------------------------
