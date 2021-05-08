@@ -512,6 +512,12 @@ section#invitedspeakers .talkName {
 
 section#invitedspeakers .abstract {
   padding: 2em;
+  color: #787878;
+}
+
+ol.nocounter {
+  list-style-type: none;
+  padding: 0;
 }
 
 /*---------------------------------------
