@@ -503,6 +503,16 @@ footer {
 }
 
 /*---------------------------------------
+   Calendar section              
+-----------------------------------------*/
+
+#calendarFrame {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+}
+
+/*---------------------------------------
    Invited speakers section              
 -----------------------------------------*/
 
