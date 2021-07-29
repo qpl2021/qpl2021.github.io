@@ -103,6 +103,40 @@ footer {
     padding-bottom: 12px;
 }
 
+#calendarashtml {
+  display:grid;
+  grid-template-columns: [times] 5em [d20210607] 1fr [d20210608] 1fr [d20210609] 1fr [d20210610] 1fr [d20210611] 1fr [d20210612];
+  grid-template-rows: [t0745] auto [t0800] auto [t0815] auto [t0830] auto [t0845] auto [t0900] auto [t0915] auto [t0930] auto [t0945] auto [t1000] auto [t1015] auto [t1030] auto [t1045] auto [t1100] auto [t1115] auto [t1130] auto [t1145] auto [t1200] auto [t1215] auto [t1230] auto [t1245] auto [t1300] auto [t1315] auto [t1330] auto [t1345] auto [t1400] auto [t1415] auto [t1430] auto [t1445] auto [t1500] auto [t1515] auto [t1530] auto [t1545] auto [t1600] auto [t1615] auto [t1630] auto [t1645] auto [t1700] auto [t1715] auto [t1730] auto [t1745] auto [t1800] auto [t1815] auto [t1830] auto [t1845] auto [t1900] auto [t1915] auto [t1930] auto [t1945] auto [t2000] auto;
+  padding-top: 3em;
+}
+
+.calendar-entry{
+  padding: 0.5em;
+  margin: 0.5em;
+  background: aliceblue;
+  border-radius: 0.5em;
+}
+.calendar-entry.calendar-invited-talk {
+  background: #f8fff0;
+} 
+.calendar-entry.calendar-non-talk {
+  background: #fff0f8;
+}
+.timestamp {
+  text-align: center;
+  padding: 1em;
+  border-top: 1px solid;
+}
+
+.presenter {
+  font-weight: bold;
+  text-align: center;
+}
+.non-talk {
+  font-weight: bold;
+  text-align: center;
+}
+
 #intro .btn,
 #contact .btn {
     background: transparent;
